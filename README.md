@@ -4,6 +4,14 @@
 
 **Мова інтерфейсу:** українська.
 
+### Запуск без встановлення (онлайн)
+
+Застосунок можна відкрити **у браузері** без клонування репозиторію та без Python на комп’ютері:
+
+**[https://python-website-5nxrleb5zsrz9ychib3v8i.streamlit.app/](https://python-website-5nxrleb5zsrz9ychib3v8i.streamlit.app/)**
+
+Завантажте свій CSV або кілька файлів для порівняння прямо на сторінці. Якщо посилання колись зміниться (перезапуск у Streamlit Cloud), перевірте налаштування деплою на [share.streamlit.io](https://share.streamlit.io).
+
 ### Основні можливості
 
 | Можливість | Опис |
@@ -56,6 +64,10 @@ pip install -r requirements.txt
 ---
 
 ## Запуск
+
+**Варіант 1 — онлайн:** див. розділ **«Запуск без встановлення (онлайн)»** на початку README.
+
+**Варіант 2 — локально** (після [встановлення](#встановлення)):
 
 ```bash
 streamlit run app.py
@@ -339,7 +351,9 @@ Score = (s_mAh + 1.5·s_Wh + 1.5·s_U + 2·s_ΔV + 2·s_IR) / 8
 
 ## Публікація в інтернеті (Streamlit Community Cloud)
 
-Коротко: репозиторій на GitHub, у [share.streamlit.io](https://share.streamlit.io) вказати **`app.py`** і **`requirements.txt`**. Якщо раніше був проєкт з **Poetry** (Replit), **не** залишайте старий `poetry.lock` без потреби — див. історію в комітах або розділ у старих версіях README.
+**Поточний публічний екземпляр:** [python-website на Streamlit Cloud](https://python-website-5nxrleb5zsrz9ychib3v8i.streamlit.app/) (те саме посилання, що в розділі про запуск без встановлення).
+
+Коротко для власних деплоїв: репозиторій на GitHub, у [share.streamlit.io](https://share.streamlit.io) вказати **`app.py`** і **`requirements.txt`**. Якщо раніше був проєкт з **Poetry** (Replit), **не** залишайте старий `poetry.lock` без потреби — див. історію в комітах або розділ у старих версіях README.
 
 ---
 
