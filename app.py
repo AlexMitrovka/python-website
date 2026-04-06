@@ -1450,8 +1450,8 @@ def _build_compare_point_hover_texts(
 
 # --- Streamlit UI ---
 
-st.set_page_config(page_title="Аналіз розряду АКБ (CSV)", layout="wide")
-st.title("Аналіз АКБ (Streamlit)")
+st.set_page_config(page_title="АКБ · аналіз розряду (CSV тестера)", layout="wide")
+st.title("Аналіз розряду АКБ · лог CSV тестера")
 st.caption("CSV з тестера: U, I, ємність (mAh), енергія (Wh), час (DATE). Номінал АКБ — обов’язково для оцінок mAh/Wh та загального балу.")
 
 st.sidebar.header("Параметри аналізу розряду")

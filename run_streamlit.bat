@@ -3,7 +3,8 @@ chcp 65001 >nul
 cd /d "%~dp0"
 
 echo ========================================
-echo   Streamlit — E:\python-math\app.py
+echo   АКБ: аналіз розряду з CSV — Streamlit
+echo   %~dp0app.py
 echo ========================================
 echo.
 
