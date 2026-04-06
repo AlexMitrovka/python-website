@@ -21,3 +21,6 @@ _err.txt
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Старий poetry.lock від Replit не потрібен — залежності в requirements.txt
+poetry.lock

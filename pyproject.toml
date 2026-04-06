@@ -1,0 +1,18 @@
+# Якщо Streamlit Cloud бачить цей файл, Poetry не повинен намагатись встановити
+# неіснуючий пакет repl_nix_python-website — тому package-mode = false.
+# Надійніше: залишити лише requirements.txt і ВИДАЛИТИ pyproject.toml + poetry.lock з репо (див. README).
+
+[tool.poetry]
+name = "python-website"
+version = "0.1.0"
+description = "Streamlit: аналіз розряду АКБ (CSV)"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.14"
+streamlit = ">=1.28.0,<2"
+plotly = ">=5.18.0,<6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
